@@ -36,15 +36,21 @@
 ### 具体的な手順
 実際に池邉が追加した時の例を交えて手順について説明します。
 
+___
+
 1. このリポジトリをクローン(sshでクローンするようにしましょう)
 
 ```
 git clone git@github.com:CIT-Autonomous-Robot-Lab/pgm_map_data.git
 ```
 
+___
+
 2. 追加 & 修正をする
 
 上記のディレクトリ構成のように追加を行いました。
+
+___
 
 3. `git checkout -b hoge/hoge`でブランチを切る
 池邉は現在のブランチを表示できるようにしています。
@@ -74,6 +80,8 @@ ikebe@ikebe:~/pgm_map_data (add/ikebe-pgm-map)$ git branch
 だいたい、`追加理由/追加内容`って感じです。
 例えば、日本語を喋る機能を追加したのであれば`feature/speak-japanese`、修正したのであれば`fix/speak-japanese`、アップデートしたのであれば`update/speak-japanese`、削除したのであれば`delete/speak-japanese`です。
 
+___
+
 4. `git status`で変更内容を確認(とりあえず)
 このコマンドは割と使います。
 現在の修正内容やインデックスに上がってるファイルを知ることが出来ます。
@@ -95,6 +103,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 新しく追加した`ikebe/`というディレクトリは、まだ`git`で追跡されていないようです。
 これから追跡するようにやります。
+
+___
 
 5. `git add .`あるいは`git add hoge hogehoge hogegege`で変更内容をインデックスに追加
 
@@ -123,6 +133,8 @@ ikebe@ikebe:~/pgm_map_data$ git status
 ```
 
 追加出来てそうです。
+
+___
 
 6. `git commit`で変更内容をgitに登録(vimでcommitしたい場合は`git config --global core.editor vim`)
 
@@ -183,6 +195,8 @@ Add ikebe pgm map
 #       modified:   README.md
 ```
 
+___
+
 7. `git push --set-upstream origin hoge/hoge`でGitHubにpush
 
 いよいよ`git push`です。
@@ -201,7 +215,7 @@ To push the current branch and set the remote as upstream, use
 出力された文の通りに実行すると`push`できます。
 
 ファイル制限のワーニングが出ていますが。
-pushできてるのでヨシッ！（なんで、ヨシっていったんですか。。）
+pushできてるのでヨシッ！（なんでヨシって、言ったんですか。。）
 
 ```
 ikebe@ikebe:~/pgm_map_data (add/ikebe-pgm-map)$ git push --set-upstream origin add/ikebe-pgm-map
@@ -225,17 +239,23 @@ To github.com:CIT-Autonomous-Robot-Lab/pgm_map_data.git
 Branch 'add/ikebe-pgm-map' set up to track remote branch 'add/ikebe-pgm-map' from 'origin'.
 ```
 
+___
+
 8. GitHub上でブランチが追加されていることを確認
 
 [CIT-Autonomous-Robot-Lab/pgm_map_data](https://github.com/CIT-Autonomous-Robot-Lab/pgm_map_data)
 
 [![Image from Gyazo](https://i.gyazo.com/f97372656bf25195ea3958c0d88dd4c0.png)](https://gyazo.com/f97372656bf25195ea3958c0d88dd4c0)
 
+___
+
 9. PRを作成する
 
 [![Image from Gyazo](https://i.gyazo.com/2192eca9d205f70bc0bca0eb460af1e2.png)](https://gyazo.com/2192eca9d205f70bc0bca0eb460af1e2)
 
 [![Image from Gyazo](https://i.gyazo.com/ebc0c7f9b9a87b979d5938fbf3f3ebba.png)](https://gyazo.com/ebc0c7f9b9a87b979d5938fbf3f3ebba)
+
+___
 
 10. squash mergeを行う
 
@@ -245,13 +265,19 @@ Branch 'add/ikebe-pgm-map' set up to track remote branch 'add/ikebe-pgm-map' fro
 
 [![Image from Gyazo](https://i.gyazo.com/3b70eacb8ebc9bcccbf3178159ac155a.png)](https://gyazo.com/3b70eacb8ebc9bcccbf3178159ac155a)
 
+___
+
 11. ブランチを削除する
 
 [![Image from Gyazo](https://i.gyazo.com/7ce3a3f776c093b7ed6fc06a8f2fbb9d.png)](https://gyazo.com/7ce3a3f776c093b7ed6fc06a8f2fbb9d)
 
+___
+
 12. でけた！
 
 [![Image from Gyazo](https://i.gyazo.com/27206427c76e8c54d1282c31f4dd39a7.png)](https://gyazo.com/27206427c76e8c54d1282c31f4dd39a7)
+
+___
 
 13. masterブランチを更新する
 
@@ -304,7 +330,7 @@ Fast-forward
  create mode 100755 ikebe/tsukuba/navigation/map_tsukuba.yaml
 ```
 
-更新できました。ということで以上が基本的なgit、GitHubでの開発フローです。
+更新できました。ということで以上が基本的な`git`、`GitHub`での開発フローです。
 
 まだまだ、`git`や`GitHub`には色んな機能があるので気になったら調べると良いです。
 
