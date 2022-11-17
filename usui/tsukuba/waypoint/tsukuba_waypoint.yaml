@@ -1,0 +1,96 @@
+waypoints:
+  - id: 1
+    position:
+      x: 63.115215
+      y: 164.224991
+    euler_angle:
+      z: 1.409703132105377
+  - id: 2
+    position:
+      x: 73.267738
+      y: 173.176529
+    euler_angle:
+      z: -0.06514149223233426
+  - id: 3
+    position:
+      x: 84.041481
+      y: 182.294632
+    euler_angle:
+      z: 1.395001094628857
+  - id: 4
+    position:
+      x: 77.927811
+      y: 198.089752
+    euler_angle:
+      z: 3.063048469290735
+  - id: 5
+    position:
+      x: 65.486435
+      y: 182.226257
+    euler_angle:
+      z: -1.615766452983174
+  - id: 6
+    position:
+      x: 75.403435
+      y: 159.652832
+    euler_angle:
+      z: -1.684175128665919
+  - id: 7
+    position:
+      x: 78.689171
+      y: 119.863716
+    euler_angle:
+      z: -1.695789560264848
+  - id: 8
+    position:
+      x: 83.177788
+      y: 83.954079
+    euler_angle:
+      z: -1.291877023532324
+    properties:
+      - function: stop
+  - id: 9
+    position:
+      x: 90.709396
+      y: 60.081715
+    euler_angle:
+      z: -1.627165852471934
+
+
+  - id: 10
+    position:
+      x: 91.354
+      y: 44.801
+    euler_angle:
+      z: -1.715
+    properties:
+      - function: stop
+  - id: 11
+    position:
+      x: 85.551170
+      y: 0.473508
+    euler_angle:
+      z: -1.652528081827453
+  - id: 12
+    position:
+      x: 84.178
+      y: -35.50
+    euler_angle:
+      z: -1.65164066556579
+    properties:
+      - function: stop
+  - id: 13
+    position:
+      x: 57.568
+      y: -133.07
+    euler_angle:
+      z: 3.104
+  - id: 14
+    position:
+      x: -8.0
+      y: -130.160
+    euler_angle:
+      z: -3.095
+    properties:
+      - function: stop
+ 
