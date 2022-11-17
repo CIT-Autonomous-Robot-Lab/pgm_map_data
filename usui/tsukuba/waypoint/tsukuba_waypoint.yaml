@@ -69,18 +69,18 @@ waypoints:
       z: -1.65164066556579
     properties:
       - function: stop
-  - id: 9
-    position:
-      x: 57.568
-      y: -133.07
-    euler_angle:
-      z: 3.104
+  # - id: 9
+  #   position:
+  #     x: 57.568
+  #     y: -133.07
+  #   euler_angle:
+  #     z: 3.104
   - id: 10
     position:
-      x: -8.0
-      y: -130.160
+      x: -8.566
+      y: -131.016
     euler_angle:
-      z: -3.095
+      z: -3.074
     properties:
       - function: stop
  
