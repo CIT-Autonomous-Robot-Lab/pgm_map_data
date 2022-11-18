@@ -8,74 +8,74 @@ waypoints:
 #      z: -0.06514149223233426
 
  
-  # - id: 1
-  #   position:
-  #     x: 62.840
-  #     y: 162.767
-  #   euler_angle:
-  #     z: 1.406
+  - id: 1
+    position:
+      x: 62.840
+      y: 162.767
+    euler_angle:
+      z: 1.406
 
-  # - id: 2
-  #   position:
-  #     x: 84.041481
-  #     y: 182.294632
-  #   euler_angle:
-  #     z: 1.395001094628857
+  - id: 2
+    position:
+      x: 84.041481
+      y: 182.294632
+    euler_angle:
+      z: 1.395001094628857
 
-  # - id: 3
-  #   position:
-  #     x: 86.3
-  #     y: 197.2
-  #   euler_angle:
-  #     z: 3.033
+  - id: 3
+    position:
+      x: 86.3
+      y: 197.2
+    euler_angle:
+      z: 3.033
 
-  # - id: 4
-  #   position:
-  #     x: 65.637
-  #     y: 185.0
-  #   euler_angle:
-  #     z: -1.636
+  - id: 4
+    position:
+      x: 65.637
+      y: 185.0
+    euler_angle:
+      z: -1.636
 
 
-#   - id: 5
-#     position:
-#       x: 83.366
-#       y: 83.481
-#     euler_angle:
-#       z: -1.20
-#     properties:
-#       - function: stop
-#   - id: 6
-#     position:
-#       x: 90.709396
-#       y: 60.081715
-#     euler_angle:
-#       z: -1.627165852471934
-# # ここまで確認走行区間
+  - id: 5
+    position:
+      x: 83.366
+      y: 83.481
+    euler_angle:
+      z: -1.20
+    properties:
+      - function: stop
+  - id: 6
+    position:
+      x: 90.709396
+      y: 60.081715
+    euler_angle:
+      z: -1.627165852471934
+# ここまで確認走行区間
 
-#   - id: 7
-#     position:
-#       x: 91.354
-#       y: 44.801
-#     euler_angle:
-#       z: -1.715
-#     properties:
-#       - function: stop
+  - id: 7
+    position:
+      x: 91.354
+      y: 44.801
+    euler_angle:
+      z: -1.715
+    properties:
+      - function: stop
 
-#   - id: 8
-#     position:
-#       x: 84.353
-#       y: -33.793
-#     euler_angle:
-    #   z: -1.65164066556579
-    # properties:
-    #   - function: stop
-    #   - function: param_change
-    #     param_name: /move_base/DWAPlannerROS/max_vel_x
-    #     param_value: "1.0"
-    #   - function: param_change
-    #     param_name: /move_base/DWAPlannerROS/max_vel_trans
-    #     param_value: "1.0"
+  - id: 8
+    position:
+      x: 84.353
+      y: -34.367
+    euler_angle:
+      z: -1.66
+    properties:
+      - function: stop
+      - function: param_change
+        param_name: /move_base/DWAPlannerROS/max_vel_x
+        param_value: "1.0"
+      - function: param_change
+        param_name: /move_base/DWAPlannerROS/max_vel_trans
+        param_value: "1.0"
 
 
   # - id: 9
