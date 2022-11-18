@@ -63,8 +63,8 @@ waypoints:
 
   - id: 8
     position:
-      x: 84.178
-      y: -35.50
+      x: 84.353
+      y: -34.367
     euler_angle:
       z: -1.65164066556579
     properties:
