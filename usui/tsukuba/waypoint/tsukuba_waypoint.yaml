@@ -65,7 +65,7 @@ waypoints:
 #   - id: 8
 #     position:
 #       x: 84.353
-#       y: -33.793
+#       y: -34.367
 #     euler_angle:
     #   z: -1.65164066556579
     # properties:
@@ -76,6 +76,7 @@ waypoints:
     #   - function: param_change
     #     param_name: /move_base/DWAPlannerROS/max_vel_trans
     #     param_value: "1.0"
+
 
 
   # - id: 9
